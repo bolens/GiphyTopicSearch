@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy Topic Search</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha256-m/h/cUDAhf6/iBRixTbuc8+Rg2cIETQtPcH9D3p2Kg0=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Giphy Topic Search</h1>
+      <form class="form-inline">
+        <input id="topic-input" class="form-control mr-sm-2" type="search" placeholder="Topic" aria-label="Topic">
+        <button id="add-topic" class="btn btn-outline-success my-2 my-sm-0" type="submit">Add Topic</button>
+        <!-- <button id="reset-topics" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Reset Topics</button> -->
+      </form>
+      <div id="button-list" class="lead btn-group" role="group" aria-label="Topics to search"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="gif-grid" class="row">
+
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(104, 101, 194);
+}
+
+button {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 25px;
+}
+
+.btn-group, .btn-group-vertical {
+  display: inline-block;
+}
